@@ -1,0 +1,12 @@
+{
+  "name": "freelancerhub",
+  "version": "1.0.0",
+  "description": "Freelancer Hub and Payment Management Platform",
+  "scripts": {
+    "install:all": "cd backend && npm install && cd ../frontend && npm install",
+    "dev:backend": "cd backend && node server.js",
+    "dev:frontend": "cd frontend && npx vite",
+    "seed": "cd backend && node seed/seed.js",
+    "start": "echo 'Run: npm run dev:backend in one terminal, npm run dev:frontend in another'"
+  }
+}
